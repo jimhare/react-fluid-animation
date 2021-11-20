@@ -1,7 +1,7 @@
-import GLProgram from 'gl-program.js'
-import getGLContext from 'get-gl-context.js'
+import GLProgram from './gl-program.js'
+import getGLContext from './get-gl-context.js'
 
-import shaders from './shaders'
+import shaders from './shaders.js'
 
 export const defaultConfig = {
   textureDownsample: 1,
