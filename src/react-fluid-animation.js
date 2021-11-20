@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from 'https://jspm.dev/prop-types'
 
-import raf from 'raf'
-import sizeMe from 'react-sizeme'
+import raf from 'https://jspm.dev/raf'
+import sizeMe from 'https://jspm.dev/react-sizeme'
 
-import FluidAnimation, { defaultConfig } from './fluid-animation'
+import FluidAnimation, { defaultConfig } from './fluid-animation.js'
 
 class ReactFluidAnimation extends Component {
   static propTypes = {
