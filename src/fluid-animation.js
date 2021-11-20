@@ -1,5 +1,5 @@
-import GLProgram from './gl-program'
-import getGLContext from './get-gl-context'
+import GLProgram from './gl-program.js'
+import getGLContext from './get-gl-context.js'
 
 import shaders from './shaders'
 
